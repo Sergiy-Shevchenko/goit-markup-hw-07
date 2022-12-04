@@ -1,0 +1,108 @@
+footer {
+        background-color: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  /*Адреса*/
+  
+  footer .container {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .footer-contact {
+    margin-bottom: 9px;
+  }
+  
+  .footer-contact:last-child {
+    margin-bottom: 0;
+  }
+  
+  .footer-page__logo {
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .link-social {
+    margin-left: 70px;
+  }
+  
+  .link-social-connect {
+    margin-left: 94px;
+  }
+  
+  .foot-form {
+    display: flex;
+  }
+  .address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+    text-decoration: none;
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .connect {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    
+  
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .foot-soc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-color);
+    margin-bottom: 20px;
+  }
+
+  .connect:hover,
+.address:hover {
+  color: var(--text-active-color);
+}
+
+.connect:focus,
+.address:focus {
+  color: var(--text-active-color);
+}
+
+.input-footer {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--footer-background-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 170px;
+    margin-right: 12px;
+  }

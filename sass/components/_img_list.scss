@@ -1,0 +1,38 @@
+.img-list {
+    display: flex;
+    justify-content: space-between;
+  }
+      
+  .img {
+    padding-top: 0px;
+  }
+  
+  .container-name {
+      font-size: 36px;
+    line-height: 1.1667;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    margin-bottom: 50px;
+  }
+  .img-section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-section > .img-section_name {
+    position: absolute;
+    bottom: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--background-color);
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }

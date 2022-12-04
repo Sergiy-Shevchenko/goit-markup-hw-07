@@ -1,0 +1,163 @@
+.button-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-list .list + .list {
+    margin-left: 8px;
+  }
+    
+  .button {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--text-color);
+    background-color: var(--button-background-color);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .button-order {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--background-color);
+    cursor: pointer;
+    background-color: var(--text-active-color);
+    border-radius: 4px;
+    padding: 10px 32px;
+    margin-top: 30px;
+    border: none;
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button-footer {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    color: var(--background-color);
+    background: var(--text-active-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    border: none;
+  }
+  
+  .closed {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: none;
+  
+    transition: online 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .closed:focus {
+    outline: 2px solid #2196f3;
+  }
+
+  .closed-icon {
+    display: flex;
+    background: #ffffff;
+    fill: #2f303a;
+    border-radius: 50%;
+  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .closed-icon:hover {
+    fill: #2196f3;
+  }
+  .closed:hover + .closed-icon {
+    fill: #2196f3;
+  }
+
+  .botton-modal {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #ffffff;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 52px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button:hover {
+    color: var(--background-color);
+    background-color: var(--text-active-color);
+  }
+  
+  .button:focus {
+    color: var(--background-color);
+    background-color: var(--text-active-color);
+  }
+
+  .button-order:hover {
+    background-color: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  .button-order:focus {
+    background-color: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  .button-order:active {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
