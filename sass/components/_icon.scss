@@ -1,4 +1,4 @@
-.foot-link {
+  .foot-link {
     display: flex;
     gap: 10px;
   }
@@ -20,22 +20,15 @@
     justify-content: center;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .foot-soc-icon:hover {
+    
+    &:hover,
+    &:focus {
     background-color: var(--text-active-color);
   }
-  
-  .foot-soc-icon:focus {
-    background-color: var(--text-active-color);
-  }
-
-  .foot-soc-icon:hover .team-soc__icon {
+   &:hover .team-soc__icon,
+   &:focus .team-soc__icon {
     fill: var(--background-color);
   }
-  
-  .foot-soc-icon:focus .team-soc__icon {
-    fill: var(--background-color);
   }
 
   .footer-soc-icon {

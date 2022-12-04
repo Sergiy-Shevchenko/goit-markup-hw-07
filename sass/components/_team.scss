@@ -46,23 +46,16 @@
   justify-content: center;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+    &:hover,
+    &:focus {
+  background-color: var(--text-active-color);
+}
+    &:hover .team-soc__icon,
+    &:focus .team-soc__icon {
+  fill: var(--background-color);
+}
   }
-
-.team-soc__link:hover {
-  background-color: var(--text-active-color);
-}
-
-.team-soc__link:focus {
-  background-color: var(--text-active-color);
-}
-
-.team-soc__link:hover .team-soc__icon {
-  fill: var(--background-color);
-}
-
-.team-soc__link:focus .team-soc__icon {
-  fill: var(--background-color);
-}
 
 .team-soc__icon {
   fill: #afb1b8;

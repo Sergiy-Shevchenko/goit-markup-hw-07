@@ -4,8 +4,6 @@ footer {
     padding-bottom: 60px;
   }
   
-  /*Адреса*/
-  
   footer .container {
     display: flex;
     align-items: baseline;
@@ -47,6 +45,11 @@ footer {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+  color: var(--text-active-color);
+}
   }
   
   .connect {
@@ -58,10 +61,14 @@ footer {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     
-  
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+  color: var(--text-active-color);
+}
   }
   
   .foot-soc {
@@ -74,16 +81,6 @@ footer {
     color: var(--background-color);
     margin-bottom: 20px;
   }
-
-  .connect:hover,
-.address:hover {
-  color: var(--text-active-color);
-}
-
-.connect:focus,
-.address:focus {
-  color: var(--text-active-color);
-}
 
 .input-footer {
     font-family: "Roboto";
